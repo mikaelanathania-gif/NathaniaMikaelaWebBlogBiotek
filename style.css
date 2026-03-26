@@ -113,22 +113,24 @@ section.about {
 section.profile{
     height: 800px;
     padding-top: 50px;
+    text-align: center;
+    
+}
+.deskProfile{
+    text-align: center;
 }
 .cardprofile {
-    display: grid;
-    place-items: center;
-    justify-content: center;
-    background-image: url("Background.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100vw auto;
-    & img{
-        background-color: rgb(255, 255, 255);
-        padding: 15px;
-        width:260px;
-        margin: auto;
-        text-align: center;   
-    }
+   padding: 15px;
+   width: 270px;
+   margin: auto;
+   text-align: center;
+   background-image: url("Background.jpeg");
+   
 }
+.imgProfile img{
+    width: 100%;
+}
+
 .banner img{
     width: 140px;
 }
